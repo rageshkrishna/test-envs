@@ -1,0 +1,9 @@
+language: node_js
+node_js: 0.10
+install: true
+env:
+ - TEST_1=Hello
+ - TEST_2=World
+script:
+ - echo $TEST_1 $TEST_2
+ - ./test.sh
